@@ -29,7 +29,7 @@ class User extends Model {
 
     // Relacionamento entre models/tabelas; FK
     static associate(models) {
-        this.belongsTo(models.File, { foreignKey: 'avatar_id' });
+        this.belongsTo(models.File, { foreignKey: 'avatar_id', as: 'avatar' });
     }
 
     checkPassword(password) {
