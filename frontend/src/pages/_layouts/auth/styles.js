@@ -4,7 +4,7 @@ import { darken } from 'polished';
 export const Wrapper = styled.div`
 	height: 100%;
 	background: linear-gradient(-90deg, #7159c1, #ab59c1);
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -39,7 +39,7 @@ export const Content = styled.div`
 			align-self: flex-start;
 			margin: 0 0 10px;
 		}
-		
+
 		button {
 			margin: 5px 0 0;
 			height: 44px;
@@ -59,13 +59,12 @@ export const Content = styled.div`
 		a {
 			color: #fff;
 			margin-top: 15px;
-			font-size: 16px ;
+			font-size: 16px;
 			opacity: 0.8;
 
 			&:hover {
 				opacity: 1;
 			}
 		}
-		
 	}
 `;
